@@ -3,7 +3,9 @@ const userInput = userInputString = prompt ('Welcome to our online store! please
     'vanilla,vanilla,vanilla,strawberry,coffee,coffee'
 );
 
-
+const arr = userInput.split(',');
+userObject.order = userInput
+console.log(userInput.split(','));
 
 
 
